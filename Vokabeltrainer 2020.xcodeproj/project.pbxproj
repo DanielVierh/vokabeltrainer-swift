@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC03730323DB5CB300A4E75E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03730223DB5CB300A4E75E /* AppDelegate.swift */; };
+		FC03730523DB5CB300A4E75E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03730423DB5CB300A4E75E /* SceneDelegate.swift */; };
+		FC03730723DB5CB300A4E75E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03730623DB5CB300A4E75E /* ViewController.swift */; };
+		FC03730A23DB5CB300A4E75E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC03730823DB5CB300A4E75E /* Main.storyboard */; };
+		FC03730D23DB5CB300A4E75E /* Vokabeltrainer_2020.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC03730B23DB5CB300A4E75E /* Vokabeltrainer_2020.xcdatamodeld */; };
+		FC03730F23DB5CB600A4E75E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC03730E23DB5CB600A4E75E /* Assets.xcassets */; };
+		FC03731223DB5CB600A4E75E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC03731023DB5CB600A4E75E /* LaunchScreen.storyboard */; };
+		FC03731A23DB7FD400A4E75E /* SecondViewControllerNeueVoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03731923DB7FD400A4E75E /* SecondViewControllerNeueVoc.swift */; };
+		FC03731C23DB801300A4E75E /* ThirtViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03731B23DB801300A4E75E /* ThirtViewControllerTest.swift */; };
+		FC03731E23DB805C00A4E75E /* VierteViewControllerManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03731D23DB805C00A4E75E /* VierteViewControllerManage.swift */; };
+		FC4775F423E0B1BA0091EBAE /* fuenfteViewControllerVocTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4775F323E0B1BA0091EBAE /* fuenfteViewControllerVocTest.swift */; };
+		FC7B75A42521240D0017C18D /* Search_English.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B75A32521240D0017C18D /* Search_English.swift */; };
+		FCA2E47323F07C0D00A28795 /* sechsterViewControllerTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2E47223F07C0D00A28795 /* sechsterViewControllerTrainer.swift */; };
+		FCA2E47523F16D0800A28795 /* siebteViewControllerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2E47423F16D0800A28795 /* siebteViewControllerSettings.swift */; };
+		FCD58C5C23FF2B6000178691 /* AchteViewControllerSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C5B23FF2B6000178691 /* AchteViewControllerSearch.swift */; };
+		FCD58C5E24001C2300178691 /* MainStacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C5D24001C2300178691 /* MainStacksViewController.swift */; };
+		FCD58C602400651000178691 /* LandingViewControllerKarteikart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C5F2400651000178691 /* LandingViewControllerKarteikart.swift */; };
+		FCD58C622400689000178691 /* Stack1ViewControllerTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C612400689000178691 /* Stack1ViewControllerTrain.swift */; };
+		FCD58C642402932C00178691 /* Stacl2ViewControllerTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C632402932C00178691 /* Stacl2ViewControllerTrain.swift */; };
+		FCD58C862406FC1C00178691 /* Stack3ViewControllerTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C852406FC1C00178691 /* Stack3ViewControllerTrain.swift */; };
+		FCD58C882407074B00178691 /* Stack4ViewControllerTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C872407074B00178691 /* Stack4ViewControllerTrain.swift */; };
+		FCD58C8C24102B1900178691 /* LandingViewControllerStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C8B24102B1800178691 /* LandingViewControllerStart.swift */; };
+		FCD58C9024102FA900178691 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C8F24102FA900178691 /* RoundButton.swift */; };
+		FCD58C9224103DA800178691 /* StartSeite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C9124103DA800178691 /* StartSeite.swift */; };
+		FCD58C942410514800178691 /* NeueVocEsp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C932410514800178691 /* NeueVocEsp.swift */; };
+		FCD58C962410574E00178691 /* RandomKarteikarten.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C952410574E00178691 /* RandomKarteikarten.swift */; };
+		FCD58C982412E4A000178691 /* MainKarteiKartEsp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C972412E4A000178691 /* MainKarteiKartEsp.swift */; };
+		FCD58C9A2412E4BB00178691 /* Stack1Esp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C992412E4BB00178691 /* Stack1Esp.swift */; };
+		FCD58C9C2412ED6200178691 /* Stack2Esp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C9B2412ED6200178691 /* Stack2Esp.swift */; };
+		FCD58C9E2412F17600178691 /* Stack3Esp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C9D2412F17600178691 /* Stack3Esp.swift */; };
+		FCD58CA02412F4DE00178691 /* Stack4Esp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58C9F2412F4DE00178691 /* Stack4Esp.swift */; };
+		FCD58CA22412FA4500178691 /* VokabeltestEsp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD58CA12412FA4500178691 /* VokabeltestEsp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC0372FF23DB5CB300A4E75E /* Vokabeltrainer 2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vokabeltrainer 2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC03730223DB5CB300A4E75E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC03730423DB5CB300A4E75E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC03730623DB5CB300A4E75E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC03730923DB5CB300A4E75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC03730C23DB5CB300A4E75E /* Vokabeltrainer_2020.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vokabeltrainer_2020.xcdatamodel; sourceTree = "<group>"; };
+		FC03730E23DB5CB600A4E75E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC03731123DB5CB600A4E75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC03731323DB5CB600A4E75E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC03731923DB7FD400A4E75E /* SecondViewControllerNeueVoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewControllerNeueVoc.swift; sourceTree = "<group>"; };
+		FC03731B23DB801300A4E75E /* ThirtViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtViewControllerTest.swift; sourceTree = "<group>"; };
+		FC03731D23DB805C00A4E75E /* VierteViewControllerManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VierteViewControllerManage.swift; sourceTree = "<group>"; };
+		FC4775F323E0B1BA0091EBAE /* fuenfteViewControllerVocTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fuenfteViewControllerVocTest.swift; sourceTree = "<group>"; };
+		FC7B75A32521240D0017C18D /* Search_English.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_English.swift; sourceTree = "<group>"; };
+		FCA2E47223F07C0D00A28795 /* sechsterViewControllerTrainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sechsterViewControllerTrainer.swift; sourceTree = "<group>"; };
+		FCA2E47423F16D0800A28795 /* siebteViewControllerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = siebteViewControllerSettings.swift; sourceTree = "<group>"; };
+		FCD58C5B23FF2B6000178691 /* AchteViewControllerSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchteViewControllerSearch.swift; sourceTree = "<group>"; };
+		FCD58C5D24001C2300178691 /* MainStacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStacksViewController.swift; sourceTree = "<group>"; };
+		FCD58C5F2400651000178691 /* LandingViewControllerKarteikart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewControllerKarteikart.swift; sourceTree = "<group>"; };
+		FCD58C612400689000178691 /* Stack1ViewControllerTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack1ViewControllerTrain.swift; sourceTree = "<group>"; };
+		FCD58C632402932C00178691 /* Stacl2ViewControllerTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacl2ViewControllerTrain.swift; sourceTree = "<group>"; };
+		FCD58C852406FC1C00178691 /* Stack3ViewControllerTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack3ViewControllerTrain.swift; sourceTree = "<group>"; };
+		FCD58C872407074B00178691 /* Stack4ViewControllerTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack4ViewControllerTrain.swift; sourceTree = "<group>"; };
+		FCD58C8B24102B1800178691 /* LandingViewControllerStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewControllerStart.swift; sourceTree = "<group>"; };
+		FCD58C8F24102FA900178691 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		FCD58C9124103DA800178691 /* StartSeite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSeite.swift; sourceTree = "<group>"; };
+		FCD58C932410514800178691 /* NeueVocEsp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeueVocEsp.swift; sourceTree = "<group>"; };
+		FCD58C952410574E00178691 /* RandomKarteikarten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomKarteikarten.swift; sourceTree = "<group>"; };
+		FCD58C972412E4A000178691 /* MainKarteiKartEsp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainKarteiKartEsp.swift; sourceTree = "<group>"; };
+		FCD58C992412E4BB00178691 /* Stack1Esp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack1Esp.swift; sourceTree = "<group>"; };
+		FCD58C9B2412ED6200178691 /* Stack2Esp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2Esp.swift; sourceTree = "<group>"; };
+		FCD58C9D2412F17600178691 /* Stack3Esp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack3Esp.swift; sourceTree = "<group>"; };
+		FCD58C9F2412F4DE00178691 /* Stack4Esp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack4Esp.swift; sourceTree = "<group>"; };
+		FCD58CA12412FA4500178691 /* VokabeltestEsp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VokabeltestEsp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC0372FC23DB5CB300A4E75E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC0372F623DB5CB300A4E75E = {
+			isa = PBXGroup;
+			children = (
+				FC03730123DB5CB300A4E75E /* Vokabeltrainer 2020 */,
+				FC03730023DB5CB300A4E75E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC03730023DB5CB300A4E75E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC0372FF23DB5CB300A4E75E /* Vokabeltrainer 2020.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC03730123DB5CB300A4E75E /* Vokabeltrainer 2020 */ = {
+			isa = PBXGroup;
+			children = (
+				FCD58C8A24102AE600178691 /* Spanische Vokabeln */,
+				FC03730223DB5CB300A4E75E /* AppDelegate.swift */,
+				FC03730423DB5CB300A4E75E /* SceneDelegate.swift */,
+				FCD58C8924102AC600178691 /* Englische Voc */,
+				FC03730823DB5CB300A4E75E /* Main.storyboard */,
+				FC03730E23DB5CB600A4E75E /* Assets.xcassets */,
+				FC03731023DB5CB600A4E75E /* LaunchScreen.storyboard */,
+				FC03731323DB5CB600A4E75E /* Info.plist */,
+				FC03730B23DB5CB300A4E75E /* Vokabeltrainer_2020.xcdatamodeld */,
+				FCD58C8B24102B1800178691 /* LandingViewControllerStart.swift */,
+				FCD58C8F24102FA900178691 /* RoundButton.swift */,
+			);
+			path = "Vokabeltrainer 2020";
+			sourceTree = "<group>";
+		};
+		FCD58C8924102AC600178691 /* Englische Voc */ = {
+			isa = PBXGroup;
+			children = (
+				FC03730623DB5CB300A4E75E /* ViewController.swift */,
+				FCA2E47423F16D0800A28795 /* siebteViewControllerSettings.swift */,
+				FCD58C5D24001C2300178691 /* MainStacksViewController.swift */,
+				FCD58C5F2400651000178691 /* LandingViewControllerKarteikart.swift */,
+				FCD58C612400689000178691 /* Stack1ViewControllerTrain.swift */,
+				FCD58C632402932C00178691 /* Stacl2ViewControllerTrain.swift */,
+				FCD58C852406FC1C00178691 /* Stack3ViewControllerTrain.swift */,
+				FCD58C872407074B00178691 /* Stack4ViewControllerTrain.swift */,
+				FCD58C5B23FF2B6000178691 /* AchteViewControllerSearch.swift */,
+				FC03731D23DB805C00A4E75E /* VierteViewControllerManage.swift */,
+				FC03731B23DB801300A4E75E /* ThirtViewControllerTest.swift */,
+				FCA2E47223F07C0D00A28795 /* sechsterViewControllerTrainer.swift */,
+				FC4775F323E0B1BA0091EBAE /* fuenfteViewControllerVocTest.swift */,
+				FC03731923DB7FD400A4E75E /* SecondViewControllerNeueVoc.swift */,
+				FC7B75A32521240D0017C18D /* Search_English.swift */,
+			);
+			path = "Englische Voc";
+			sourceTree = "<group>";
+		};
+		FCD58C8A24102AE600178691 /* Spanische Vokabeln */ = {
+			isa = PBXGroup;
+			children = (
+				FCD58C9124103DA800178691 /* StartSeite.swift */,
+				FCD58C932410514800178691 /* NeueVocEsp.swift */,
+				FCD58C952410574E00178691 /* RandomKarteikarten.swift */,
+				FCD58C972412E4A000178691 /* MainKarteiKartEsp.swift */,
+				FCD58C992412E4BB00178691 /* Stack1Esp.swift */,
+				FCD58C9B2412ED6200178691 /* Stack2Esp.swift */,
+				FCD58C9D2412F17600178691 /* Stack3Esp.swift */,
+				FCD58C9F2412F4DE00178691 /* Stack4Esp.swift */,
+				FCD58CA12412FA4500178691 /* VokabeltestEsp.swift */,
+			);
+			path = "Spanische Vokabeln";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC0372FE23DB5CB300A4E75E /* Vokabeltrainer 2020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC03731623DB5CB600A4E75E /* Build configuration list for PBXNativeTarget "Vokabeltrainer 2020" */;
+			buildPhases = (
+				FC0372FB23DB5CB300A4E75E /* Sources */,
+				FC0372FC23DB5CB300A4E75E /* Frameworks */,
+				FC0372FD23DB5CB300A4E75E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vokabeltrainer 2020";
+			productName = "Vokabeltrainer 2020";
+			productReference = FC0372FF23DB5CB300A4E75E /* Vokabeltrainer 2020.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC0372F723DB5CB300A4E75E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Daniel Vierheilig";
+				TargetAttributes = {
+					FC0372FE23DB5CB300A4E75E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FC0372FA23DB5CB300A4E75E /* Build configuration list for PBXProject "Vokabeltrainer 2020" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC0372F623DB5CB300A4E75E;
+			productRefGroup = FC03730023DB5CB300A4E75E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC0372FE23DB5CB300A4E75E /* Vokabeltrainer 2020 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC0372FD23DB5CB300A4E75E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC03731223DB5CB600A4E75E /* LaunchScreen.storyboard in Resources */,
+				FC03730F23DB5CB600A4E75E /* Assets.xcassets in Resources */,
+				FC03730A23DB5CB300A4E75E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC0372FB23DB5CB300A4E75E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD58C862406FC1C00178691 /* Stack3ViewControllerTrain.swift in Sources */,
+				FC03730D23DB5CB300A4E75E /* Vokabeltrainer_2020.xcdatamodeld in Sources */,
+				FCD58C9C2412ED6200178691 /* Stack2Esp.swift in Sources */,
+				FCD58C882407074B00178691 /* Stack4ViewControllerTrain.swift in Sources */,
+				FCD58C9224103DA800178691 /* StartSeite.swift in Sources */,
+				FCD58C642402932C00178691 /* Stacl2ViewControllerTrain.swift in Sources */,
+				FCD58C9024102FA900178691 /* RoundButton.swift in Sources */,
+				FCD58C8C24102B1900178691 /* LandingViewControllerStart.swift in Sources */,
+				FC03730723DB5CB300A4E75E /* ViewController.swift in Sources */,
+				FCD58C622400689000178691 /* Stack1ViewControllerTrain.swift in Sources */,
+				FCD58C982412E4A000178691 /* MainKarteiKartEsp.swift in Sources */,
+				FCD58C602400651000178691 /* LandingViewControllerKarteikart.swift in Sources */,
+				FCD58C5E24001C2300178691 /* MainStacksViewController.swift in Sources */,
+				FC03731C23DB801300A4E75E /* ThirtViewControllerTest.swift in Sources */,
+				FC03731E23DB805C00A4E75E /* VierteViewControllerManage.swift in Sources */,
+				FCD58C962410574E00178691 /* RandomKarteikarten.swift in Sources */,
+				FCD58C5C23FF2B6000178691 /* AchteViewControllerSearch.swift in Sources */,
+				FC03730323DB5CB300A4E75E /* AppDelegate.swift in Sources */,
+				FCD58C9A2412E4BB00178691 /* Stack1Esp.swift in Sources */,
+				FCD58CA02412F4DE00178691 /* Stack4Esp.swift in Sources */,
+				FC4775F423E0B1BA0091EBAE /* fuenfteViewControllerVocTest.swift in Sources */,
+				FC03730523DB5CB300A4E75E /* SceneDelegate.swift in Sources */,
+				FCD58C9E2412F17600178691 /* Stack3Esp.swift in Sources */,
+				FC7B75A42521240D0017C18D /* Search_English.swift in Sources */,
+				FCD58CA22412FA4500178691 /* VokabeltestEsp.swift in Sources */,
+				FCA2E47523F16D0800A28795 /* siebteViewControllerSettings.swift in Sources */,
+				FC03731A23DB7FD400A4E75E /* SecondViewControllerNeueVoc.swift in Sources */,
+				FCA2E47323F07C0D00A28795 /* sechsterViewControllerTrainer.swift in Sources */,
+				FCD58C942410514800178691 /* NeueVocEsp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC03730823DB5CB300A4E75E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC03730923DB5CB300A4E75E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC03731023DB5CB600A4E75E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC03731123DB5CB600A4E75E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC03731423DB5CB600A4E75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC03731523DB5CB600A4E75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC03731723DB5CB600A4E75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDY9D88U83;
+				INFOPLIST_FILE = "Vokabeltrainer 2020/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.DanielVierheilig.Vokabeltrainer-2020";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC03731823DB5CB600A4E75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDY9D88U83;
+				INFOPLIST_FILE = "Vokabeltrainer 2020/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.DanielVierheilig.Vokabeltrainer-2020";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC0372FA23DB5CB300A4E75E /* Build configuration list for PBXProject "Vokabeltrainer 2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC03731423DB5CB600A4E75E /* Debug */,
+				FC03731523DB5CB600A4E75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC03731623DB5CB600A4E75E /* Build configuration list for PBXNativeTarget "Vokabeltrainer 2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC03731723DB5CB600A4E75E /* Debug */,
+				FC03731823DB5CB600A4E75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC03730B23DB5CB300A4E75E /* Vokabeltrainer_2020.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC03730C23DB5CB300A4E75E /* Vokabeltrainer_2020.xcdatamodel */,
+			);
+			currentVersion = FC03730C23DB5CB300A4E75E /* Vokabeltrainer_2020.xcdatamodel */;
+			path = Vokabeltrainer_2020.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC0372F723DB5CB300A4E75E /* Project object */;
+}
